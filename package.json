@@ -3,27 +3,19 @@
   "version": "1.0.0",
   "description": "Assignment Challenge 3: Aplikasi CLI untuk tracking kebiasaan harian",
   "main": "app.js",
+  "private": true,
   "scripts": {
     "start": "node app.js",
-    "solution": "node app-solution.js",
+    "dev": "node --watch app.js",
     "test": "echo \"Run: node app.js to start the application\""
   },
-  "keywords": [
-    "habit-tracker",
-    "cli",
-    "javascript",
-    "nodejs",
-    "challenge-3",
-    "assignment",
-    "learning"
-  ],
-  "author": "Your Name Here",
+  "author": "Sidiq Kusumah",
   "license": "ISC",
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=18.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "your-repo-url"
+    "url": ""
   }
 }
